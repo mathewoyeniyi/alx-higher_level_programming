@@ -1,14 +1,10 @@
 #!/usr/bin/python3
-"""
- divides 2 integers and prints the result.
-    """
-
 
 def safe_print_division(a, b):
     try:
-        x = a / b
-    except:
-        x = None
+        a = a / b
+    except ZeroDivisionError:
+        a = None
     finally:
-        print("Inside result: {}".format(x))
-        return x
+        print("Inside result:", "{}".format(a))
+    return a

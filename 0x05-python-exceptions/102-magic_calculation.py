@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 # 102-magic_calculation.py
-# rn aa3heno>
 
 def magic_calculation(a, b):
     result = 0
